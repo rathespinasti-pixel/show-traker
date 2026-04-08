@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        font-family: Arial;
+        background-color: #f5f5f5;
+    }
+    .container{
+        width: 80%;
+        max-width: auto;
+    }
+    /*card*/
+    .card{
+        display: flex;
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .poster{
+        width: 150px;
+        border-radius: 5px ;
+    }
+    .details{
+        margin-left: 20px;
+    }
+    .time{
+        color: gray;
+    }
+    .desc{
+        margin: 10px 0;
+    }
+    .btn{
+        background: #3b82f6;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .rating{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        color: red;
+        font-size: 20px;
+    }
+    /*Next Episode*/
+    .next{
+        background-color: #d1ecf1;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    /*Episodes*/
+    .episodes{
+        background: white;
+        margin-top: 10px;
+        padding: 15px;
+    }
+    .episode{
+        border-left: 4px solid black;
+        padding-left: 10px;
+        margin: 10px 0;
+    }
+</style>
+<body>
+    <div class="container">
+        <!--card-->
+        <div class="card">
+            <img src="got.jpg" class="Poster">
+              <div class="details">
+                <h2>Game of Thrones</h2>
+                <p class="time">Sunday 9:00 PM on HBO</p>
+
+                <p class="desc">
+                    Seven noble families fight for control of Westeros...
+                </p>
+                <button class="btn">Login to Subscrible</button>
+                </div>
+                <div class="rathing">9.5</div>
+        </div>
+        <!--Next Episode-->
+        <div class="next">
+            The next episode starts in 2 months 
+            </div>
+            <!--Episode-->
+            <div class="episode">
+                <h3>6 EPISODES</h3>
+
+            <div class="episode">
+                <h4>Inside Game of Thrones</h4>
+                <p>Season 0,Episode 1</p>
+            </div>
+            <div class="episode">
+                <h4>15-minute Preview</h4>
+                <p>Season 0,Episode 2</p>
+            </div>
+        
+    </div>
+</body>
+</html>
