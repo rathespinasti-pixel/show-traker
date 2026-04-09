@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background: #eef1f5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    background: yellow;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.menu a, .auth a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.card{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-color: #e6e7eb;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: center; space-between;
+    align-items: center ;
+    background: #f8f9fa;
+    padding: 10px 20px;
+}
+.logo{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+
+}
+
+nav a{
+    margin-left:10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-links a{
+    margin: left 10px;
+    text-decoration: none;
+    color:  #333;
+
+}
+
+.auth-links .active{
+    border: 1px dashed #aaa;
+    padding: 5px 10px;
+}
+
+/*center-box*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+.signup-box{
+    background:#fff;
+    padding: 25px;
+    width: 300px;
+    text-align:center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.signup-box h2{
+    margin-bottom: 20px;
+}
+
+/* Form */
+form input{
+    width: 100px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* text */ 
+.terms{
+    text-decoration: none;
+    
+}
+.login-link{
+    margin-top: 10px;
+    font-size:  14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
